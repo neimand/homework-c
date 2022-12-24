@@ -7,9 +7,11 @@
 918 -> 1
 */
 
+Console.Clear();
 Console.WriteLine("Введите трехзначное число: ");
 int number = int.Parse(Console.ReadLine()!);
 int number2 = (( number % 100) / 10);
+
 if (number <= 99 || number > 1000 )
 {
     Console.WriteLine("Вы ввели не трехзначное число");
